@@ -38,4 +38,14 @@ void main()
 
 	inOrder(head);
 
+	struct node * root3 = mirror(head);
+	printf("\n");
+	int sum = evenSum(head);
+	printf("\neven sum = %d", sum);
+	
+	printf("\nodd sum = %d", oddSum(head));
+
+	printf("\nmin = %d", min(head));
+	
+printf("\nmax = %d", max(head));
 }
